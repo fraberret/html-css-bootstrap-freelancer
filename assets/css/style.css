@@ -18,6 +18,17 @@
     width: 20%;
 }
 
+.debug .content{
+    width: 500px;
+    aspect-ratio: 1;
+    background-color: red;
+}
+
 header{
     background-color: var(--boot-darkest);
 }
+
+.jumbotron{
+    background-color: var(--boot-primary);
+}
+
