@@ -42,3 +42,8 @@ header{
     background-color: var(--boot-primary);
     color: var(--boot-lighter);
 }
+
+.location{
+    background-color: var(--boot-dark);
+    color: var(--boot-lighter);
+}
