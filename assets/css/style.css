@@ -1,3 +1,23 @@
-body{
-    background-color: red;
+/* color palette */
+
+:root{
+    --boot-primary:#1abc9c;
+    --boot-dark:#3a546d;
+    --boot-darkest:#2c3e50;
+    --boot-darker:#333333;
+    --boot-lighter:#ffffff;
+    
+}
+
+
+
+.debug .logo,
+.debug .menu{
+    background-color: #fff;
+    height: 20px;
+    width: 20%;
+}
+
+header{
+    background-color: var(--boot-darkest);
 }
