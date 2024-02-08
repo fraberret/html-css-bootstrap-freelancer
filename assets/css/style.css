@@ -47,3 +47,8 @@ header{
     background-color: var(--boot-dark);
     color: var(--boot-lighter);
 }
+
+.copyright{
+    background-color: var(--boot-darkest);
+    color: var(--boot-lighter);
+}
