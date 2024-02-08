@@ -9,7 +9,7 @@
     
 }
 
-
+/* debug */
 
 .debug .logo,
 .debug .menu{
@@ -30,8 +30,32 @@
     ;
 }
 
+
 header{
     background-color: var(--boot-darkest);
+}
+
+.menu{
+    display: none;
+   
+}
+@media screen and (min-width:576px) {
+        
+    .menu{
+        display: block;
+    }
+    
+    .button{
+        display: none;
+    }
+}
+
+
+
+.menu>ul{
+    list-style: none;
+    gap: 1rem;
+    font-size: 12px;
 }
 
 .jumbotron{
