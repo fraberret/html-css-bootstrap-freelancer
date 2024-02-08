@@ -24,6 +24,12 @@
     background-color: red;
 }
 
+.debug .form{
+    background-color: red;
+    height: 200px
+    ;
+}
+
 header{
     background-color: var(--boot-darkest);
 }
@@ -34,4 +40,5 @@ header{
 
 .about{
     background-color: var(--boot-primary);
+    color: var(--boot-lighter);
 }
