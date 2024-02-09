@@ -9,29 +9,12 @@
     
 }
 
-/* debug */
-
-.debug .logo,
-.debug .menu{
-    background-color: #fff;
-    height: 20px;
-    width: 20%;
+a{
+    text-decoration: none;
+    color: var(--boot-lighter);
 }
 
-.debug .content{
-    width: 500px;
-    aspect-ratio: 1;
-    background-color: red;
-}
-
-.debug .form{
-    background-color: red;
-    height: 200px
-    ;
-}
-
-
-header{
+.bg_darkest{
     background-color: var(--boot-darkest);
 }
 
@@ -39,7 +22,7 @@ header{
     display: none;
    
 }
-@media screen and (min-width:576px) {
+@media screen and (min-width:768px) {
         
     .menu{
         display: block;
@@ -49,8 +32,6 @@ header{
         display: none;
     }
 }
-
-
 
 .menu>ul{
     list-style: none;
