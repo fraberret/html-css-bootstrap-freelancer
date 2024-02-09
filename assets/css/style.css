@@ -18,6 +18,11 @@ a{
     background-color: var(--boot-darkest);
 }
 
+.bg_primary{
+    background-color: var(--boot-primary);
+}
+
+
 .menu{
     display: none;
    
@@ -56,4 +61,9 @@ a{
 .copyright{
     background-color: var(--boot-darkest);
     color: var(--boot-lighter);
+}
+
+.line{
+    border-bottom: 3px solid ;
+    width: 100px;
 }
