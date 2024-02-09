@@ -13,6 +13,10 @@ a{
     text-decoration: none;
     color: var(--boot-lighter);
 }
+.line{
+    border-bottom: 3px solid ;
+    width: 100px;
+}
 
 .bg_darkest{
     background-color: var(--boot-darkest);
@@ -63,7 +67,3 @@ a{
     color: var(--boot-lighter);
 }
 
-.line{
-    border-bottom: 3px solid ;
-    width: 100px;
-}
