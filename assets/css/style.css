@@ -26,6 +26,9 @@ a{
     background-color: var(--boot-primary);
 }
 
+.text_primary{
+    color: var(--boot-primary);
+}
 
 .menu{
     display: none;
